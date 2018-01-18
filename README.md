@@ -1,4 +1,4 @@
-# aws-ses-helper
+# trunk-aws-ses-helper
 
 sample
 
@@ -25,7 +25,7 @@ text 跟 html 參數擇一使用
 
 
 ```
-npm install trunk-studio/aws-ses-helper
+npm install trunk-studio/trunk-aws-ses-helper
 ```
 
 ## License
