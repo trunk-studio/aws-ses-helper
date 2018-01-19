@@ -22,7 +22,7 @@ let sesHelper = new SESHelper(constructorParams);
 test('send text email', async () => {
   let result = await sesHelper.senEmail({
     from: 'office@trunk-studio.com',
-    to: ['dan2@trunk-studio.com'],
+    to: ['dan@trunk-studio.com'],
     subject: '測試純文字',
     text: '內容'
   });
@@ -32,7 +32,7 @@ test('send html email', async () => {
   
   let result = await sesHelper.senEmail({
     from: 'office@trunk-studio.com',
-    to: ['dan2@trunk-studio.com'],
+    to: ['dan@trunk-studio.com'],
     subject: '測試 html',
     html: 
 `
