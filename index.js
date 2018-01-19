@@ -48,7 +48,8 @@ class SESHelper {
       Source: from,
       ReplyToAddresses: [],
     };
-    var sendPromise = this.ses.sendEmail(params).promise();
+    var result = await this.ses.sendEmail(params).promise();
+    return result;
   }
 }
 
