@@ -3,7 +3,6 @@ const debug = require("debug")("awsS3");
 
 class SESHelper {
   constructor(config) {
-    console.log("config", config);
     this.ENV = config.ENV;
     this.BUCKET = config.SES_BUCKET;
     AWS.config.update({
